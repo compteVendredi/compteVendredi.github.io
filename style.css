@@ -1,0 +1,32 @@
+.conteneur {
+    display: flex;
+    background-color: PaleGoldenrod;
+    border: #000000 solid 2px;
+    margin: 4px;
+    padding: 5px;
+}
+
+.text-left {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.img-right {
+    float: right;
+    width: 50%;
+}
+/*
+.img-right:hover {
+    float: right;
+    transform: scale(1.5); 
+}
+*/
+img {  
+    max-width: 100%;  
+}  
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
